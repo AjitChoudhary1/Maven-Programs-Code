@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [5TCs LoginToAmazon And LogOut Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon By 5Cls Test(failed)">
+    <classes>
+      <class name="maven_code2.TC3_LoginTo_Amazon_Search_AddToCart_LogOut">
+        <methods>
+          <include name="Closing"/>
+          <include name="LoginToAmazon_search_AddToCart_AndLogOut"/>
+          <include name="Launching"/>
+        </methods>
+      </class> <!-- maven_code2.TC3_LoginTo_Amazon_Search_AddToCart_LogOut -->
+    </classes>
+  </test> <!-- Amazon By 5Cls Test(failed) -->
+</suite> <!-- Failed suite [5TCs LoginToAmazon And LogOut Suite] -->

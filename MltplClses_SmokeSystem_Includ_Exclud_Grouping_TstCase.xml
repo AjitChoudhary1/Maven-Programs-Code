@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grouping Smoke,System Multiple Clses TestCase">
+	<test thread-count="5" name="Smoke,System Test Together">
+		<groups>
+			<run>
+				<include name="system"></include>
+				<exclude name="smoke"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="maven_code.Grouping_TestCases_MltplClses1" />
+			<class name="maven_code.Grouping_TestCases_MltplClses2" />
+			<class name="maven_code.Grouping_TestCases_MltplClses3" />
+			<class name="maven_code.Grouping_TestCases_MltplClses4" />
+			<class name="maven_code.Grouping_TestCases_MltplClses5" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

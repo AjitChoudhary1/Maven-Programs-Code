@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="5TCs LoginToAmazon And LogOut Suite">
+	<test thread-count="5" name="Amazon By 5Cls Test">
+		<classes>
+
+			<class name="maven_code2.TC1_LoginTo_Amazon_LogOut" />
+
+			<class
+				name="maven_code2.TC2_LoginTo_Amazon_Search_AddToWishList_LogOut" />
+
+			<class name="maven_code2.TC3_LoginTo_Amazon_Search_AddToCart_LogOut" />
+
+			<class name="maven_code2.TC4_LoginTo_Amazon_AddNewAddress_LogOut" />
+
+			<class name="maven_code2.TC5_LoginTo_Amazon_FindBrokenLinks_LogOut" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!-- 
+Suite -->

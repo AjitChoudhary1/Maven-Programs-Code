@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel Brows Testing IsDisplayed]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test For Chrome Parallel 2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="maven_code.CrossAndParallel_IsDisplayed_BrowsTesting">
+        <methods>
+          <include name="LoginToAmazon" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- maven_code.CrossAndParallel_IsDisplayed_BrowsTesting -->
+    </classes>
+  </test> <!-- Test For Chrome Parallel 2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test For Chrome Parallel(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="maven_code.CrossAndParallel_IsDisplayed_BrowsTesting">
+        <methods>
+          <include name="LoginToAmazon" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- maven_code.CrossAndParallel_IsDisplayed_BrowsTesting -->
+    </classes>
+  </test> <!-- Test For Chrome Parallel(failed) -->
+</suite> <!-- Failed suite [Parallel Brows Testing IsDisplayed] -->

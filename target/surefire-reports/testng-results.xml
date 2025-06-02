@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-02T16:22:56 IST" name="Browser Launch Suite" finished-at="2025-06-02T16:24:08 IST" duration-ms="71339">
+    <groups>
+    </groups>
+    <test started-at="2025-06-02T16:22:56 IST" name="Launching Browsers By 2 Test" finished-at="2025-06-02T16:24:08 IST" duration-ms="71339">
+      <class name="maven_code.WebDriver_Launch_2Test">
+        <test-method signature="LaunchBrowser()[pri:0, instance:maven_code.WebDriver_Launch_2Test@290222c1]" started-at="2025-06-02T16:22:57 IST" name="LaunchBrowser" finished-at="2025-06-02T16:23:15 IST" duration-ms="18440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="LaunchBrowser1()[pri:0, instance:maven_code.WebDriver_Launch_2Test@290222c1]" started-at="2025-06-02T16:23:15 IST" name="LaunchBrowser1" finished-at="2025-06-02T16:24:08 IST" duration-ms="52811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser1 -->
+      </class> <!-- maven_code.WebDriver_Launch_2Test -->
+    </test> <!-- Launching Browsers By 2 Test -->
+  </suite> <!-- Browser Launch Suite -->
+  <suite started-at="2025-06-02T16:24:08 IST" name="Launch Browser Suite" finished-at="2025-06-02T16:24:24 IST" duration-ms="16329">
+    <groups>
+    </groups>
+    <test started-at="2025-06-02T16:24:08 IST" name="Launch Browser by 1Test" finished-at="2025-06-02T16:24:24 IST" duration-ms="16329">
+      <class name="maven_code.WebDriver_Launch_1Test">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:maven_code.WebDriver_Launch_1Test@15bb5034]" started-at="2025-06-02T16:24:08 IST" name="LaunchBrowser" finished-at="2025-06-02T16:24:24 IST" duration-ms="16320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- maven_code.WebDriver_Launch_1Test -->
+    </test> <!-- Launch Browser by 1Test -->
+  </suite> <!-- Launch Browser Suite -->
+</testng-results>

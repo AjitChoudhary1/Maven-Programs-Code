@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Launch Browser Suite">
+	<test thread-count="5" name="Launch Browser by 1Test">
+		<parameter name="Browsers" value="edge"></parameter>
+		<classes>
+			<class name="maven_code.WebDriver_Launch_1Test" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

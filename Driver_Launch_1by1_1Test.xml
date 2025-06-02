@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Launch Browser Suite">
+	<test thread-count="5" name="Launch Edge Browser by 1Test">
+		<parameter name="Browsers" value="edge"></parameter>
+		<classes>
+			<class name="maven_code.WebDriver_Launch_1Test" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+	<test thread-count="5" name="Launch Chrome Browser by 1Test">
+		<parameter name="Browsers" value="chrome"></parameter>
+		<classes>
+			<class name="maven_code.WebDriver_Launch_1Test" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+	<test thread-count="5" name="Launch firefox Browser by 1Test">
+		<parameter name="Browsers" value="firefox"></parameter>
+		<classes>
+			<class name="maven_code.WebDriver_Launch_1Test" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

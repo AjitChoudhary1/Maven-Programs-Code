@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Launch Quit Parallel Browser" parallel="tests">
+	<test thread-count="5" name="TestCase1,TestCase2" parallel="tests">
+		<parameter name="Browsers" value="edge"></parameter>
+		<classes>
+			<class name="maven_code.Launch_QuitBrowsr_TestCase2" />
+			<class name="maven_code.Launch_QuitBrowsr_TestCase1" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="TestCase1" parallel="tests">
+		<parameter name="Browsers" value="chrome"></parameter>
+		<classes>
+			<class name="maven_code.Launch_QuitBrowsr_TestCase1" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="TestCase2" parallel="tests">
+		<parameter name="Browsers" value="edge"></parameter>
+		<classes>
+			<class name="maven_code.Launch_QuitBrowsr_TestCase2" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

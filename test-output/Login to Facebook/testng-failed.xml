@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Login to Facebook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Chrome parallel Browser Testing(failed)">
+    <parameter name="Browsers" value="chrome"/>
+    <classes>
+      <class name="maven_code.ParallelBrowsrTsting_LogintoAmazon">
+        <methods>
+          <include name="LaunchBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- maven_code.ParallelBrowsrTsting_LogintoAmazon -->
+    </classes>
+  </test> <!-- Chrome parallel Browser Testing(failed) -->
+</suite> <!-- Failed suite [Login to Facebook] -->

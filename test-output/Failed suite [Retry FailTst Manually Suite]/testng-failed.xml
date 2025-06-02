@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Retry FailTst Manually Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Retry Test(failed)(failed)">
+    <classes>
+      <class name="maven_code1.Retry_FaildTstCase_Manually">
+        <methods>
+          <include name="Google"/>
+        </methods>
+      </class> <!-- maven_code1.Retry_FaildTstCase_Manually -->
+    </classes>
+  </test> <!-- Retry Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Retry FailTst Manually Suite]] -->
