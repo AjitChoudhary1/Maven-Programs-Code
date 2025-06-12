@@ -14,9 +14,9 @@ public class CrossAndParallel_IsDisplayed_BrowsTesting1
 	
 	WebDriver driver; //global variable
 	
-	@Parameters("browser")
-	@Test
 	
+	@Test
+	@Parameters("browser")
 	public void LoginToAmazon(String browser) throws InterruptedException
     {
 				

@@ -31,19 +31,19 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.32.0</version>
+			<version>4.31.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>5.4.1</version>
+			<version>5.2.3</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>5.4.1</version>
+			<version>5.2.3</version>
 		</dependency>
 
 
@@ -68,8 +68,7 @@
 					<version>3.5.3</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>Driver_Launch_2Test.xml</suiteXmlFile>
-							<suiteXmlFile>Driver_LaunchSingle_1Test.xml</suiteXmlFile>
+							<suiteXmlFile>CrossBrwsTst_LogintoAmazon.xml</suiteXmlFile>
 							<!--suiteXmlFile>target\surefire-reports\testng-failed.xml</suiteXmlFile-->
 						</suiteXmlFiles>
 					</configuration>

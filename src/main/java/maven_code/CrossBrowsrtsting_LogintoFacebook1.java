@@ -13,8 +13,9 @@ public class CrossBrowsrtsting_LogintoFacebook1
 	                                                   //After adding the parameters we can run only from testng.xml as suite
 	WebDriver driver;
 	
-	     @Parameters("Browsers")                                    //if run here in class will get testng exception
+	                                         //if run here in class will get testng exception
 	    @Test
+	    @Parameters("Browsers")
 	    public void LaunchBrowser(String NameofBrowsers) throws InterruptedException
 	    {
 	    	if(NameofBrowsers.equals("chrome"))

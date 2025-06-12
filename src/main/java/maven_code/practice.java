@@ -8,7 +8,7 @@ public class practice
 		@Test (priority=1)
 		public void login()
 		{
-			
+			 
 		}
 
 		@Test (priority=3)

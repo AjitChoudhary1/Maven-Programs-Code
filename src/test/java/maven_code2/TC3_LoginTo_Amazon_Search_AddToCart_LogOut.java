@@ -67,8 +67,13 @@ public class TC3_LoginTo_Amazon_Search_AddToCart_LogOut extends Amazon_BaseClass
 		        addtocart.AddtoCart(driver);
 		             
                 
-             // s1.assertEquals(addtocart.msgaddedtocart(), "Added to cart");  
-		             //Assertion 4
+		     // Assertion 4
+				  WebElement addtocartmsg= driver.findElement(By.xpath("//h1[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']"));
+		          
+				  s1.assertEquals(addtocartmsg.getText(), "Added to cart");  
+				         
+				                String addtocartmsg1= addtocartmsg.getText();
+				                        System.out.println(addtocartmsg1);
 		        
 		        
               

@@ -8,7 +8,7 @@ public class Testing_Some2
 	
 	EdgeDriver driver= new EdgeDriver();
 	
-    @Test
+    @Test 
 	public static void Welcome() 
 	{
 		System.out.println("Ajit Choudhary");
