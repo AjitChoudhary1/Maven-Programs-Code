@@ -15,7 +15,7 @@ public class ParallelBrowsrTsting_LogintoAmazon1
 	WebDriver driver;
 	
 	                                         //if run here in class will get testng exception
-	    @Test
+	    @Test 
 	    @Parameters("Browsers")
 	    public void LaunchBrowser(String NameofBrowsers) throws InterruptedException
 	    {

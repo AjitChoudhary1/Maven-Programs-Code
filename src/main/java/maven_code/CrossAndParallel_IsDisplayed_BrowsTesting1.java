@@ -16,7 +16,7 @@ public class CrossAndParallel_IsDisplayed_BrowsTesting1
 	
 	
 	@Test
-	@Parameters("browser")
+	@Parameters("browser") 
 	public void LoginToAmazon(String browser) throws InterruptedException
     {
 				
