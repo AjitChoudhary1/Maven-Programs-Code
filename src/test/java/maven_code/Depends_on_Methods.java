@@ -8,7 +8,7 @@ public class Depends_on_Methods
 {
 	   WebDriver driver;
 	
-	  @Test (timeOut=50)                               //It will skip logout if Login not happen in browser
+	  @Test (timeOut=50)                               //It will skip logout if Login not happen
 	  public void LoginToAmazon() 
 	  {
 		     driver= new EdgeDriver();
@@ -20,7 +20,7 @@ public class Depends_on_Methods
 	  @Test (dependsOnMethods="LoginToAmazon")
 	  public void LogOutFromAmazon()
 	  {
-		  System.out.println("Do Logout From Amazon");
+		  System.out.println("Do LogOut From Amazon");
 	  }
 
 }

@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-01T14:09:22 IST" name="Default suite" finished-at="2025-06-01T14:09:26 IST" duration-ms="4393">
+  <suite started-at="2025-06-13T21:32:08 IST" name="Default suite" finished-at="2025-06-13T21:32:15 IST" duration-ms="7366">
     <groups>
     </groups>
-    <test started-at="2025-06-01T14:09:22 IST" name="Default test" finished-at="2025-06-01T14:09:26 IST" duration-ms="4393">
-      <class name="maven_code2.JSExcutr_IFrame_Elmnt_HDFCbank">
-        <test-method signature="IFrame_HdfcBank()[pri:0, instance:maven_code2.JSExcutr_IFrame_Elmnt_HDFCbank@298a5e20]" started-at="2025-06-01T14:09:22 IST" name="IFrame_HdfcBank" finished-at="2025-06-01T14:09:26 IST" duration-ms="4333" status="PASS">
+    <test started-at="2025-06-13T21:32:08 IST" name="Default test" finished-at="2025-06-13T21:32:15 IST" duration-ms="7366">
+      <class name="maven_code.LoginTo_Amazon">
+        <test-method is-config="true" signature="extentreport()[pri:0, instance:maven_code.LoginTo_Amazon@7f485fda]" started-at="2025-06-13T21:32:07 IST" name="extentreport" finished-at="2025-06-13T21:32:08 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IFrame_HdfcBank -->
-      </class> <!-- maven_code2.JSExcutr_IFrame_Elmnt_HDFCbank -->
+        </test-method> <!-- extentreport -->
+        <test-method signature="LoginToAmazon()[pri:0, instance:maven_code.LoginTo_Amazon@7f485fda]" started-at="2025-06-13T21:32:08 IST" name="LoginToAmazon" finished-at="2025-06-13T21:32:15 IST" duration-ms="7299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAmazon -->
+        <test-method is-config="true" signature="extentreport1()[pri:0, instance:maven_code.LoginTo_Amazon@7f485fda]" started-at="2025-06-13T21:32:15 IST" name="extentreport1" finished-at="2025-06-13T21:32:15 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport1 -->
+      </class> <!-- maven_code.LoginTo_Amazon -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
