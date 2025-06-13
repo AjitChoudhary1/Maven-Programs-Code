@@ -1,15 +1,12 @@
 package maven_code2;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class A_Implicit_Wait 
 {
-	  @SuppressWarnings("deprecation")
-	@Test
+	  @Test
 	  public void implicitWait()
 	  {
 	            ChromeDriver driver = new ChromeDriver();
@@ -26,7 +23,7 @@ public class A_Implicit_Wait
 	                    
 	                    
 	                      //Old Syntax  now deprecated in 2023
-	              driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	             // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	                    
 	                    
 	  }
