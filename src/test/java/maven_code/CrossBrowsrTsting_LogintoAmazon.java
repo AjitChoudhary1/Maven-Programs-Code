@@ -66,7 +66,7 @@ public class CrossBrowsrTsting_LogintoAmazon
 	    	
 	    	
 	    	
-	    	            Thread.sleep(10000);
+	    	            Thread.sleep(2000);
 	    	       driver.quit();
 	    }
 	
