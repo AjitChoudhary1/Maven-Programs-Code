@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="maven_code2.JSExcutr_IFrame_Elmnt_HDFCbank">
+      <class name="maven_code2.IncognitoMode_Amazon">
         <methods>
-          <include name="IFrame_HdfcBank"/>
+          <include name="Amazon_Incognito"/>
         </methods>
-      </class> <!-- maven_code2.JSExcutr_IFrame_Elmnt_HDFCbank -->
+      </class> <!-- maven_code2.IncognitoMode_Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
