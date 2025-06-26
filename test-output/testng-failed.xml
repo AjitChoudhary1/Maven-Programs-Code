@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="maven_code2.IncognitoMode_Amazon">
+      <class name="maven_code1.Broken_Links_Google">
         <methods>
-          <include name="Amazon_Incognito"/>
+          <include name="GoogleBrokenLinks"/>
         </methods>
-      </class> <!-- maven_code2.IncognitoMode_Amazon -->
+      </class> <!-- maven_code1.Broken_Links_Google -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

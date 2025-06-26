@@ -16,51 +16,51 @@ public class Listeners_Method_ScreenShot_TestNG implements ITestListener
 	public static EdgeDriver driver;
 
 	@Override
-	public void onTestSuccess(ITestResult result) 
+	public void onTestSuccess(ITestResult result)
 	{
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
 		    Reporter.log("Test Case Is pass");
-		    
+
 		    TakesScreenshot t1= driver;
 		  File source= t1.getScreenshotAs(OutputType.FILE);
 		  File destination= new File("C:\\Users\\ajitc\\eclipse-workspace\\Maven_Programs\\ScreenShots-Lisnrs\\Pass SShot\\ListenersSShotTestCasePass.png");
-		  try 
+		  try
 		  {
 			FileHandler.copy(source, destination);
-		  } 
-		  catch (IOException e) 
+		  }
+		  catch (IOException e)
 		  {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		  }
-		    
-		    
+
+
 	}
 
 	@Override
-	public void onTestFailure(ITestResult result) 
+	public void onTestFailure(ITestResult result)
 	{
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
 		    Reporter.log("Test Case Is Fail");
-		    
+
 		    TakesScreenshot t1= driver;
 			  File source= t1.getScreenshotAs(OutputType.FILE);
 			  File destination= new File("C:\\Users\\ajitc\\eclipse-workspace\\Maven_Programs\\ScreenShots-Lisnrs\\Fail SShot\\ListenersSShotTestCaseFail.jpg");
-			  try 
+			  try
 			  {
 				FileHandler.copy(source, destination);
-			  } 
+			  }
 			  catch (IOException e)
 			  {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			  }
 	}
-        
-	
-	
-	
-	
+
+
+
+
+
 }

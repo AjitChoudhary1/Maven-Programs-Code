@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProvider_Annot_AmazonSearch 
+public class DataProvider_Annot_AmazonSearch
 {
 	   @Test (dataProvider="data")
 	   public static void SearchOnAmazon(String input)
@@ -17,16 +17,16 @@ public class DataProvider_Annot_AmazonSearch
 		         WebDriver driver= new EdgeDriver();
 		          driver.manage().window().maximize();
 		          driver.navigate().refresh();
-		          
+
 		              driver.get("https://www.amazon.in/");
 		              driver.navigate().refresh();
-		              
+
 		       WebElement search= driver.findElement(By.id("twotabsearchtextbox"));
 		                 search.sendKeys(input,Keys.ENTER);
 		                 //search.sendKeys(Keys.ENTER);
 	   }
-	   
-	   
+
+
 	      @DataProvider()
 	      public Object [] [] data()
 	      {
@@ -41,13 +41,13 @@ public class DataProvider_Annot_AmazonSearch
 			o1[7][0]="Oneplus";
 			o1[8][0]="Nike";
 			o1[9][0]="Puma";
-			
-			
+
+
 			return o1;
-	    	  
+
 	      }
-	   
-	   
-	   
+
+
+
 
 }

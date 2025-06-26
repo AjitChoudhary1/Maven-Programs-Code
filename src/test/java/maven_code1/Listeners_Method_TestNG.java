@@ -8,7 +8,7 @@ public class Listeners_Method_TestNG implements ITestListener
 {
 
 	@Override
-	public void onTestSuccess(ITestResult result) 
+	public void onTestSuccess(ITestResult result)
 	{
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
@@ -16,15 +16,15 @@ public class Listeners_Method_TestNG implements ITestListener
 	}
 
 	@Override
-	public void onTestFailure(ITestResult result) 
+	public void onTestFailure(ITestResult result)
 	{
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
 		    Reporter.log("Test Case Is Fail");
 	}
-        
-	
-	
-	
-	
+
+
+
+
+
 }

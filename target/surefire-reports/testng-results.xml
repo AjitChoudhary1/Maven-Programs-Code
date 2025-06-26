@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-12T22:10:42 IST" name="Login to Amazon" finished-at="2025-06-12T22:11:38 IST" duration-ms="56262">
+  <suite started-at="2025-06-25T23:47:48 IST" name="Login to Amazon" finished-at="2025-06-25T23:48:10 IST" duration-ms="22117">
     <groups>
     </groups>
-    <test started-at="2025-06-12T22:10:42 IST" name="Chrome Cross Browser Testing" finished-at="2025-06-12T22:11:10 IST" duration-ms="28751">
+    <test started-at="2025-06-25T23:47:48 IST" name="Chrome Cross Browser Testing" finished-at="2025-06-25T23:48:06 IST" duration-ms="18147">
       <class name="maven_code.CrossBrowsrTsting_LogintoAmazon">
-        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:maven_code.CrossBrowsrTsting_LogintoAmazon@12aba8be]" started-at="2025-06-12T22:10:42 IST" name="LaunchBrowser" finished-at="2025-06-12T22:11:10 IST" duration-ms="28682" status="PASS">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:maven_code.CrossBrowsrTsting_LogintoAmazon@54a7079e]" started-at="2025-06-25T23:47:48 IST" name="LaunchBrowser" finished-at="2025-06-25T23:48:06 IST" duration-ms="18071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- LaunchBrowser -->
       </class> <!-- maven_code.CrossBrowsrTsting_LogintoAmazon -->
     </test> <!-- Chrome Cross Browser Testing -->
-    <test started-at="2025-06-12T22:11:10 IST" name="Edge Cross Browser Testing" finished-at="2025-06-12T22:11:38 IST" duration-ms="27437">
+    <test started-at="2025-06-25T23:48:06 IST" name="Edge Cross Browser Testing" finished-at="2025-06-25T23:48:10 IST" duration-ms="3848">
       <class name="maven_code.CrossBrowsrTsting_LogintoAmazon">
-        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:maven_code.CrossBrowsrTsting_LogintoAmazon@2e385cce]" started-at="2025-06-12T22:11:10 IST" name="LaunchBrowser" finished-at="2025-06-12T22:11:38 IST" duration-ms="27434" status="PASS">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:maven_code.CrossBrowsrTsting_LogintoAmazon@2a265ea9]" started-at="2025-06-25T23:48:06 IST" name="LaunchBrowser" finished-at="2025-06-25T23:48:10 IST" duration-ms="3826" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -30,6 +30,72 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
+Host info: host: 'AJIT_CHOUDHARY', ip: '192.168.31.33'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
+Host info: host: 'AJIT_CHOUDHARY', ip: '192.168.31.33'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at maven_code.CrossBrowsrTsting_LogintoAmazon.LaunchBrowser(CrossBrowsrTsting_LogintoAmazon.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->

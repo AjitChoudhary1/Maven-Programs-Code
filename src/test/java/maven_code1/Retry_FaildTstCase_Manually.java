@@ -8,53 +8,53 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class Retry_FaildTstCase_Manually 
+public class Retry_FaildTstCase_Manually
 {
 	WebDriver driver;
-	
+
 	 @Test
 	 public void Google() throws InterruptedException
 	 {
 		 driver= new ChromeDriver();
-		 
+
 		    driver.get("https://www.google.com");
-		 
+
 		     //WebElement srchbar=    driver.findElement(By.id("APjFqb"));
 		      WebElement srchbar=    driver.findElement(By.id("Ajit"));
 		         srchbar.sendKeys("" + Keys.ENTER);
-		         
-		         
+
+
 		         Thread.sleep(3000);
 		         driver.quit();
 	 }
-	 
-	 
+
+
 	 @Test
 	 public void Amazon() throws InterruptedException
 	 {
 		 driver= new EdgeDriver();
-		    
+
 		     driver.get("https://www.amazon.in");
-		     
+
 		     Thread.sleep(3000);
 		       driver.close();
 	 }
-	 
-	 
+
+
 	 @Test
 	 public void Facebook() throws InterruptedException
 	 {
 		 driver= new EdgeDriver();
-		    
+
 	     driver.get("https://www.facebook.com");
-		 
-	     
+
+
 		 Thread.sleep(3000);
 		      driver.close();
 	 }
-	
-	
-	
-	
+
+
+
+
 
 }

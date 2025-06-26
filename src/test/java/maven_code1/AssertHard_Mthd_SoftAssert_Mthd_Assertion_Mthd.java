@@ -5,28 +5,28 @@ import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
-public class AssertHard_Mthd_SoftAssert_Mthd_Assertion_Mthd 
+public class AssertHard_Mthd_SoftAssert_Mthd_Assertion_Mthd
 {
 	          //AssertHard Method
-	
+
 	   @Test
 	   public void assertHard0()
 	   {
 		   Assert.assertTrue(true);
 	   }
-	   
+
 	   @Test
-	   public void assertHard1()                               
+	   public void assertHard1()
 	   {
 		   Assert.assertTrue(false);
 	   }
-	   
+
 	   @Test
 	   public void assertHard2()
 	   {
 		   Assert.assertFalse(false);
 	   }
-	   
+
 	   @Test
 	   public void assertHard3()
 	   {
@@ -39,12 +39,12 @@ public class AssertHard_Mthd_SoftAssert_Mthd_Assertion_Mthd
 		   Assert.assertNotEquals(getClass(), getClass());
 		   Assert.assertEquals("", "");
 	   }
-	   
-	   
-	   
-	   
-	          // SoftAssert Method 
-	   
+
+
+
+
+	          // SoftAssert Method
+
 	   @Test
 	   public void SOftassert()
 	   {
@@ -54,11 +54,11 @@ public class AssertHard_Mthd_SoftAssert_Mthd_Assertion_Mthd
 	                    s1.assertEquals("", "");
 	                      s1.assertNotEquals("", "");
 	   }
-	   
-	   
-	   
+
+
+
 	          // HardAssert(Assertion) Method
-	   
+
 	   @Test
 	   public void Assertion()
 	   {
@@ -66,7 +66,7 @@ public class AssertHard_Mthd_SoftAssert_Mthd_Assertion_Mthd
 		          a1.assertEquals("", "");
 		             a1.assertNotEquals("", "");
 	   }
-	         
-	   
-	   
+
+
+
 }

@@ -14,21 +14,21 @@ public class JSExcutr_Disabled_GTM_JSAM                                         
 	{
 		ChromeOptions options= new ChromeOptions();
 		    options.addArguments("start-maximized");
-		    
+
 		ChromeDriver driver= new ChromeDriver(options);
 		     driver.get("file:///C:/Users/ajitc/OneDrive/Desktop/Java%20Notes/learningHTML1.html");
-		     
-		     
+
+
 		     WebElement search= driver.findElement(By.id("121"));
-		     
-		     
-		      //JavascriptExecutor js=        driver;                                    //implicit explicit can both
-		        JavascriptExecutor js=  (JavascriptExecutor)      driver;
+
+
+		      JavascriptExecutor js=        driver;                                    //implicit explicit can both
+		       // JavascriptExecutor js=  (JavascriptExecutor)      driver;
 		          js.executeScript("arguments[0].removeAttribute('disabled')", search);
 		             search.sendKeys("Ajit Choudhary");
-		
-		
+
+
 	}
-	
+
 
 }

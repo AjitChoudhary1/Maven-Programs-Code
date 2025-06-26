@@ -9,14 +9,36 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Login to Amazon</th></tr>
-<tr><td><a href="#t0">Chrome Cross Browser Testing</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,751</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Edge Cross Browser Testing</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27,437</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">56,188</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Chrome Cross Browser Testing</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,147</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Edge Cross Browser Testing</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,848</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">21,995</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Login to Amazon</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Cross Browser Testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">maven_code.CrossBrowsrTsting_LogintoAmazon</td><td><a href="#m0">LaunchBrowser</a></td><td rowspan="1">1749746442149</td><td rowspan="1">28682</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Edge Cross Browser Testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">maven_code.CrossBrowsrTsting_LogintoAmazon</td><td><a href="#m1">LaunchBrowser</a></td><td rowspan="1">1749746470917</td><td rowspan="1">27434</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Login to Amazon</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Cross Browser Testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">maven_code.CrossBrowsrTsting_LogintoAmazon</td><td><a href="#m0">LaunchBrowser</a></td><td rowspan="1">1750875468404</td><td rowspan="1">18071</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Edge Cross Browser Testing &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">maven_code.CrossBrowsrTsting_LogintoAmazon</td><td><a href="#m1">LaunchBrowser</a></td><td rowspan="1">1750875486613</td><td rowspan="1">3826</td></tr></tbody>
 </table>
 <h2>Chrome Cross Browser Testing</h2><h3 id="m0">maven_code.CrossBrowsrTsting_LogintoAmazon#LaunchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Edge Cross Browser Testing</h2><h3 id="m1">maven_code.CrossBrowsrTsting_LogintoAmazon#LaunchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Edge Cross Browser Testing</h2><h3 id="m1">maven_code.CrossBrowsrTsting_LogintoAmazon#LaunchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&apos;t use --user-data-dir 
+Host info: host: &apos;AJIT_CHOUDHARY&apos;, ip: &apos;192.168.31.33&apos;
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at maven_code.CrossBrowsrTsting_LogintoAmazon.LaunchBrowser(CrossBrowsrTsting_LogintoAmazon.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

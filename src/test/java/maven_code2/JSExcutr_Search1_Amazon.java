@@ -14,19 +14,19 @@ public class JSExcutr_Search1_Amazon                                            
 	{
 		EdgeOptions options= new EdgeOptions();
 		    options.addArguments("start-maximized");
-		    
+
 		EdgeDriver driver= new EdgeDriver(options);
 		     driver.get("https://www.amazon.in");
-		     
-		     
+
+
 		     WebElement search= driver.findElement(By.cssSelector("input[id^=twotab]"));
-		     
+
 		     driver.executeScript("arguments[0].value='Laptop'", search);
 		         search.sendKeys(Keys.ENTER);
-		
-		
-		
+
+
+
 	}
-	
+
 
 }

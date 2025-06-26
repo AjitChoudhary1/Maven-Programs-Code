@@ -14,20 +14,20 @@ public class JSExcutr_Scrollup_Down_Amazon                                      
 	{
 		EdgeOptions options= new EdgeOptions();
 		    options.addArguments("start-maximized");
-		    
+
 		EdgeDriver driver= new EdgeDriver(options);
 		     driver.get("https://www.amazon.in");
 		       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		     		     
-		     
+
+
 		      //JavascriptExecutor js=        driver;                                    //implicit explicit can both
-		        JavascriptExecutor js=  (JavascriptExecutor)      driver;
+		        JavascriptExecutor js=  driver;
 		          js.executeScript("window.scrollBy(0,700)");
 		          js.executeScript("window.scrollBy(0,400)");
-		             
-		
-		
+
+
+
 	}
-	
+
 
 }
